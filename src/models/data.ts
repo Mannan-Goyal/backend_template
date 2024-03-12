@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/naming-convention */
 import mongoose from 'mongoose';
 import { type IKeyVal } from '../types/types';
 

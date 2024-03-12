@@ -24,7 +24,7 @@ app.use(cors());
 
 app.use('/api', router);
 
-app.get('/', (req: Request, res: Response) => {
+app.get('/', (_req: Request, res: Response) => {
     res.json({ status: 'ok' });
 });
 
